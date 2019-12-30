@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Meraki contact</title>
+
+    <!-- Favicon -->
+    <link rel="icon"  href="images/m_logo.png">
+
+    <!-- Google Fonts monterrat 400-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,900|Ubuntu" rel="stylesheet">
+
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- J Query -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <!-- Chart.js script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+    <!-- set viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+    <meta property="og:title" content="Campbell Data Science" />
+    <meta property="og:description" content="Piano For All" />
+    <meta property="og:image" content="images/cds_logo_50.jpg" />
+
+  </head>
+
+
+
+
+
+  <body>
+
+
+<div id="header" class="container-fluid">
+
+          <!-- Nav Bar -->
+          <nav id='topBar' class="navbar navbar-expand-lg navbar-light">
+
+            <i class="fas main-logo"> <a class='navbar-brand' href='index.html'>Meraki</a> </i>
+
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+              <ul class="navbar-nav ml-auto">
+                <li class='nav-item'>
+                  <a class='nav-link' href='gallery.html'>Gallery</a>
+                </li>
+                <li class='nav-item'>
+                  <a class='nav-link' href='about.html'>About</a>
+                </li>
+                <li class='nav-item'>
+                  <a class='nav-link' href='contact.html'>Contact</a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </nav>
+
+</div>
+
+<section id="title">
+
+
+<div id='Introduction' class="container-fluid">
+          <div class="row">
+
+
+
+
+            <div class='bottomSpace col-sm-5'>
+              <img class="galleryImage" src="https://picsum.photos/400/600" alt="">
+              <br>
+              <br>
+              <!-- <p class="home-text-grey text-centre">Artwork One</p> -->
+            </div>
+
+
+            <div class='bottomSpace col-sm-6'>
+              <p class="home-text-grey text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum erat. Suspendisse imperdiet, nunc sit amet posuere finibus, nibh purus dignissim quam, in vulputate sem lectus ac dui. </p>
+
+              <!-- <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+
+              <p class="home-text-grey text-left">Name:</p>
+              <input type="text" name="name">
+              <br>
+              <br>
+
+              <p class="home-text-grey text-left">E-mail:</p>
+              <input type="email" name="mail">
+              <br>
+              <br>
+
+              <p class="home-text-grey text-left">Comment:</p>
+              <input type="text" name="comment" size="50">
+              <br>
+              <br>
+
+              <input type="submit" value="Send" class="btn btn-primary">
+              </form> -->
+
+              <form action="mailto:someone@example.com" method="get" enctype="text/plain" target="_blank" rel="noopener noreferrer">
+
+                <div class="form-group">
+                <label for="exampleFormControlTextarea1" class="form-text">Subject</label>
+                <textarea class="form-control" name="subject" rows="1" placeholder="try the artwork title"></textarea>
+              </div>
+
+                <div class="form-group">
+                <label for="exampleFormControlTextarea1" class="form-text">Message</label>
+                <textarea class="form-control" name="body" rows="3" placeholder=""></textarea>
+                </div>
+
+                <button type="submit" value="Send" class="btn btn-primary">Create email</button>
+              </form>
+
+
+            </div>
+
+
+
+
+          <!-- Working -->
+
+            <!-- <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+              <div class="form-group">
+                <label for="exampleInputEmail1" class="form-text">Email address</label>
+                <input type="email" name="mail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+              <label for="exampleFormControlTextarea1" class="form-text">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+              <button type="submit" value="Send" class="btn btn-primary">Submit</button>
+            </form> -->
+
+
+            </div>
+          </div>
+
+
+
+
+      </section>
+
+
+                <!-- Footer -->
+
+                <footer id="footer">
+                  <div class="SocialLogo">
+                    <a href="#"><i class="SocialIcon fab fa-twitter"></i></a>
+                    <a href="#"><i class=" SocialIcon fab fa-facebook-f"></i></a>
+                    <a href="#"><i class=" SocialIcon fab fa-instagram"></i></a>
+                    <a href="#"><i class=" SocialIcon fas fa-envelope"></i></a>
+                  </div>
+
+                  <p class="copyright">© Copyright 2020 Meraki</p>
+
+                </footer>
+
+    </body>
+</html>

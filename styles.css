@@ -1,0 +1,616 @@
+/* Home page specific */
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.form-control::-webkit-input-placeholder {
+  color: Silver;
+  font-size: 0.9rem;
+}
+
+.contact-link{
+  color: gray;
+  font-weight: 600;
+}
+
+.current-art{
+  color: gray;
+  font-weight: 600;
+}
+
+.art-link{
+  color: gray;
+}
+
+.art-link:hover{
+  color: black;
+}
+
+.home-text{
+  color: white;
+  font-size: 1.2rem;
+}
+
+.home-text-grey{
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.form-text{
+  color: grey;
+}
+
+.list-text-grey{
+  /* color: grey; */
+  font-size: 1rem;
+  font-weight: 600;
+  color: #5b9aa0;
+}
+
+.home-title{
+  /* font-weight: 200; */
+  /* font-size: 1.8rem; */
+  font-size: 2rem;
+}
+
+.home-title-w{
+  color: white;
+  /* font-size: 1.8rem; */
+  font-size: 2rem;
+}
+
+.align-centre{
+  text-align: center;
+}
+
+.text-centre{
+  text-align: center;
+}
+
+#title{
+  /* background-color: #5b9aa0; */
+  color: #fff;
+  position: sticky;
+}
+
+#Introduction{
+  width: 100%;
+}
+
+#features{
+  width: 100%;
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#deals{
+  width: 100%;
+  padding: 7% 15%;
+  background-color: #5b9aa0;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+}
+
+#timer{
+  text-align: center;
+  font-size: 1.4rem;
+  margin-top: 0px;
+  /* color: #146EB4; */
+  color: #C70039;
+}
+
+#free{
+  color: white;
+}
+
+#free:hover{
+  color: orange;
+  text-decoration: none;
+}
+
+.div, .section{
+  border: none !important;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.mainImage{
+  transform: rotate(0deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+  left: 60px;
+  height: 400px;
+  width: 400px;
+  /* top: 60px; */
+}
+
+.pageImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  /* height: 0%; */
+  width: 40%;
+}
+
+.galleryImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  /* height: 0%; */
+  width: 80%;
+}
+
+.featureBox{
+    text-align: center;
+    padding: 4.5%
+}
+
+.featureImage{
+  color: #d6d4e0;
+  padding-top: 10%;
+  margin-bottom: 1rem;
+  font-size: 50px;
+}
+
+.featureImage:hover{
+  color: #b8a9c9;
+}
+
+.ytvideo{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.top{
+  z-index: 0;
+}
+
+.rating {
+  color: #FF9900;
+  font-size: 30px;
+}
+
+.rating-s {
+  color: #FF9900;
+  font-size: 20px;
+}
+
+/* AmazonBlue */
+.AZB {
+  color: #146EB4;
+}
+
+/* AmazonOrange */
+.AZO {
+  color: #FF9900;
+}
+
+.centre {
+  margin: 20px auto 20px;
+}
+
+.Changed{
+  color: #146EB4;
+}
+
+.grey{
+  color: grey;
+}
+
+.crossOut{
+  text-decoration: line-through;
+  color: grey;
+}
+
+.hidden{
+  visibility: hidden;
+  position: absolute;
+}
+
+.discount{
+  font-size: 4rem;
+  color: #C70039;
+  font-weight: 300;
+}
+
+.discount-small{
+  font-size: 1.5rem;
+  font-weight: 200;
+  /* color: #146EB4; */
+  color: #C70039;
+  margin: 0;
+}
+
+.fas, .fab {
+  padding-right: 10px;
+}
+
+.main-logo{
+  font-size: 2rem;
+  color: #848484;
+}
+
+.navbar-light .navbar-brand {
+    color: #848484;
+    font-size: 1rem;
+}
+
+#rrp{
+  font-size: 2.5rem;
+  font-weight: 200;
+  color: #3B3B3B;
+}
+
+#topBar{
+  padding-bottom: 0;
+}
+
+#savingText{
+  /* color: grey; */
+  color: #3B3B3B;
+}
+
+#saving{
+
+}
+
+#brandName{
+
+}
+
+#productName{
+  font-weight: 200;
+}
+
+h1, h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+body{
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+b{
+
+}
+
+/* Navigation Bar */
+
+
+
+.navbar{
+  padding: 0 0 3rem;
+}
+
+.navbar-toggler{
+  font-size: 0.6rem;
+}
+
+.navbar-toggler-icon{
+  font-size: 0.6rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-brand {
+    font-size: 1.4rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1rem;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+/* Download Buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.button-shadow{
+  box-shadow: -5px 5px 5px grey;
+}
+
+.testimonialImage{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.left-move{
+  position: relative;
+  right: 8%;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+  text-align: center;
+  background-color: #5b9aa0;
+  color: #fff;
+}
+
+#press{
+  background-color: #5b9aa0;
+  text-align: center;
+  height: 80px;
+}
+
+.pressLogo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#gallery{
+  background-color: #5b9aa0;
+  text-align: center;
+}
+
+.gallery-centre{
+    margin: 0px auto 0px;
+}
+
+.carousel-control-next-icon{
+  color: black;
+}
+
+.testimonial-text{
+  /* color: red; */
+  font-weight: 400;
+}
+
+.testimonial-link{
+  color: #FF9900;
+  font-size: 1.2rem;
+}
+
+a:hover{
+  color: #146EB4;
+  text-decoration: none;
+}
+
+/* Pricing section */
+
+#pricing{
+  padding: 100px;
+}
+
+#gallery{
+  text-align: center;
+  /* background-color: #5b9aa0;
+  color: #fff; */
+}
+
+.pricing-column{
+  padding: 3% 2%;
+  text-align: center;
+}
+
+#cta{
+  background-color: #5b9aa0;
+  text-align: center;
+  padding: 80px 20%;
+  color: #fff;
+}
+
+#header{
+  background-color: #fff;
+}
+
+.container-fluid{
+  padding: 2.5% 15% 2.5%;
+}
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+}
+
+.copyright{
+  color: #8f8f8f
+}
+
+.SocialLogo{
+  width: 50%;
+  margin: 20px auto 20px;
+  margin-bottom: 10px
+}
+
+.SocialIcon{
+padding: 5px;
+color: grey;
+}
+
+.SocialIcon:hover{
+  color: black;
+}
+
+
+.ctaHeading{
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+
+
+
+@media (max-width: 1028px) {
+
+  #title, #timer{
+    text-align: center;
+  }
+  .mainImage{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+@media (max-width: 750px) {
+
+/* home page */
+.text-left{
+  text-align: left;
+}
+
+/* text size */
+.home-text{
+  color: white;
+  font-size: 0.9rem;
+}
+
+.home-text-grey{
+  color: grey;
+  font-size: 0.9rem;
+}
+
+.list-text-grey{
+  /* color: grey; */
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #5b9aa0;
+}
+
+.home-title{
+  font-size: 1.2rem;
+}
+
+.home-title-w{
+  color: white;
+  font-size: 1.2rem;
+}
+
+.bottomSpace{
+  padding-bottom: 20px;
+}
+
+.fas,.far{
+  font-size: 1.2rem;
+}
+
+/* ??? */
+.navbar-brand{
+  font-size: 0.5rem;
+}
+
+/* campbelldatascience title */
+.navbar-light .navbar-brand {
+    font-size: 0.8rem;
+}
+
+.navbar-toggler{
+  font-size: 0.6rem;
+}
+
+.navbar-toggler-icon{
+  font-size: 0.6rem;
+}
+
+/* drop down text  */
+.nav-link{
+  font-size: 0.9rem;
+}
+
+.align-centre{
+  text-align: center;
+}
+
+.centre{
+  font-size: 0.9rem;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    font-size: 1rem;
+}
+
+#saving{
+  font-size: 1.2rem;
+}
+
+.copyright{
+  color: #8f8f8f;
+  font-size: 0.8rem;
+}
+
+.ytvideo{
+  width: 324px;
+  height: 182.25px;
+}
+
+#Introduction{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#features{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#deals{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#header{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#timer{
+  font-size: 1rem;
+}
+
+#free{
+  color: white;
+}
+
+#free:hover{
+  color: orange;
+  text-decoration: none;
+}
+
+
+}
