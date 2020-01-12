@@ -89,15 +89,16 @@
           <div class="row">
 
 
-            <div class='bottomSpace col-sm-2'>
-              <p class="home-text-grey text-left"><a href="gallery.html" class="art-link">Artwork One</a></p>
+            <div class='bottomSpace col-sm-3'>
+              <!-- <p class="home-text-grey text-left"><a href="gallery.html" class="art-link">Artwork One</a></p>
               <p class="home-text-grey text-left current-art">Artwork Two</p>
               <p class="home-text-grey text-left"><a href="artwork_three.html" class="art-link">Artwork Three</a></p>
               <p class="home-text-grey text-left"><a href="artwork_four.html" class="art-link">Artwork Four</a></p>
-              <p class="home-text-grey text-left"><a href="artwork_five.html" class="art-link">Artwork Five</a></p>
+              <p class="home-text-grey text-left"><a href="artwork_five.html" class="art-link">Artwork Five</a></p> -->
             </div>
 
-            <div class='bottomSpace col-sm-7'>
+
+            <div class='bottomSpace col-sm-6'>
               <img class="galleryImage" src="https://picsum.photos/400/600" alt="">
               <br>
               <br>
@@ -105,10 +106,36 @@
             </div>
 
 
+
             <div class='bottomSpace col-lg-3'>
+
+              <div class="dropdown show left">
+                <!-- removed dropdown toggle from the anchor class, ss below -->
+                <!-- <a class="btn btn-light dropdown-toggle btn-sm" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+
+                <a class="btn btn-light btn-sm" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Artwork One
+                  <i class="arrow-icon fa fa-arrow-down"></i>
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <!-- <h6 class="dropdown-header">Dropdown header</h6> -->
+                  <a class="dropdown-item custom-dropdown-text" href="#">Action</a>
+                  <a class="dropdown-item custom-dropdown-text" href="#">Another action</a>
+                  <a class="dropdown-item custom-dropdown-text" href="#">One more action</a>
+                  <div class="dropdown-divider"></div>
+                  <!-- <a class="dropdown-item custom-dropdown-text" href="#">Back to grid view</a> -->
+                  <a class="dropdown-item custom-dropdown-text" href="#">Grid view <i class="grid-icon fa fa-th"></i></a>
+                </div>
+              </div>
+
+              <br>
+
               <p class="home-text-grey text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum erat. Suspendisse imperdiet, nunc sit amet posuere finibus, nibh purus dignissim quam, in vulputate sem lectus ac dui. </p>
               <p class="home-text-grey text-left">Integer lacinia, lorem ac bibendum lobortis, odio libero rhoncus odio, et molestie urna ligula sed felis. Quisque ac elit ut nisl.</p>
             </div>
+
+
 
 
             </div>
