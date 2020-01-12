@@ -10,6 +10,10 @@ html{
   font-size: 0.9rem;
 }
 
+.padded{
+  padding: 5%;
+}
+
 .contact-link{
   color: gray;
   font-weight: 600;
